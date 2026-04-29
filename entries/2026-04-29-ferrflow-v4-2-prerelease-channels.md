@@ -1,7 +1,7 @@
 ---
 title: 'FerrFlow v4.2 · pre-release channels'
 summary: 'Ship `alpha`, `beta`, and `rc` releases without touching your floating tags.'
-date: 2026-04-29
+date: 2026-04-29T09:00:00Z
 product: 'ferrflow'
 type: 'new'
 docsLink: 'https://ferrflow.com/docs/guides/prerelease-channels'

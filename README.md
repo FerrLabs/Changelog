@@ -18,8 +18,8 @@ Create `entries/YYYY-MM-DD-<slug>.md`:
 ---
 title: 'Product · short headline'
 summary: 'One sentence describing what shipped.'
-date: 2026-04-29
-product: ferrflow              # ferrflow | ferrvault | ferrtrack | ferrgrowth | ferragents | ferrlabs
+date: 2026-04-29T15:30:00Z   # ISO 8601, time matters for ordering + datePublished
+product: ferrflow              # ferrflow | ferrvault | ferrtrack | ferrgrowth | ferrlabs
 type: new                      # new | fix | perf | breaking | deprecation | security
 prLink: https://github.com/... # optional
 docsLink: https://...          # optional
