@@ -1,0 +1,30 @@
+name: Notify consumers
+
+on:
+  push:
+    branches: [main]
+    paths: ['entries/**']
+
+jobs:
+  dispatch:
+    name: Trigger rebuild on each consumer
+    runs-on: ubuntu-latest
+    permissions: { contents: read }
+    strategy:
+      fail-fast: false
+      matrix:
+        repo:
+          - FerrLabs-Cloud
+          - FerrFlow-Cloud
+          - FerrTrack-Cloud
+          - FerrVault-Cloud
+          - FerrGrowth-Cloud
+          - FerrAgents
+    steps:
+      - name: Dispatch changelog-updated event
+        env:
+          GH_TOKEN: ${{ secrets.FERRFLOW_DISPATCH_TOKEN }}
+        run: |
+          gh api -X POST "repos/FerrLabs/${{ matrix.repo }}/dispatches" \
+            -f event_type="changelog-updated" \
+            -F client_payload[sha]="${{ github.sha }}"
