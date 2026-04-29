@@ -19,7 +19,6 @@ jobs:
           - FerrTrack-Cloud
           - FerrVault-Cloud
           - FerrGrowth-Cloud
-          - FerrAgents
     steps:
       - name: Dispatch changelog-updated event
         env:
