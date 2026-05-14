@@ -7,6 +7,7 @@ The editorial changelog for the FerrLabs developer toolkit — what we shipped, 
 - [vault.ferrlabs.com/changelog/](https://vault.ferrlabs.com/changelog/) — FerrVault only
 - [track.ferrlabs.com/changelog/](https://track.ferrlabs.com/changelog/) — FerrTrack only
 - [growth.ferrlabs.com/changelog/](https://growth.ferrlabs.com/changelog/) — FerrGrowth only
+- [ferrfleet.com/changelog/](https://ferrfleet.com/changelog/) — FerrFleet only
 
 Each consumer site fetches this directory at build time via [`degit`](https://github.com/Rich-Harris/degit) and filters by product. A `repository_dispatch` event fires every push to `main` and triggers a rebuild on every consumer.
 
@@ -19,7 +20,7 @@ Create `entries/YYYY-MM-DD-<slug>.md`:
 title: 'Product · short headline'
 summary: 'One sentence describing what shipped.'
 date: 2026-04-29T15:30:00Z   # ISO 8601, time matters for ordering + datePublished
-product: ferrflow              # ferrflow | ferrvault | ferrtrack | ferrgrowth | ferrlabs
+product: ferrflow              # ferrflow | ferrvault | ferrtrack | ferrgrowth | ferrfleet | ferrlabs
 type: new                      # new | fix | perf | breaking | deprecation | security
 prLink: https://github.com/... # optional
 docsLink: https://...          # optional
