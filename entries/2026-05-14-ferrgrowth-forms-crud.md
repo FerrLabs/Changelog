@@ -1,6 +1,6 @@
 ---
 title: 'FerrGrowth · Forms CRUD — create, update, delete, list submissions'
-summary: 'New form' button now opens a real modal instead of doing nothing. POST/PATCH/DELETE on /v1/sites/:slug/forms plus a submissions list endpoint, all org-scoped.
+summary: The 'New form' button now opens a real modal instead of doing nothing. POST/PATCH/DELETE on /v1/sites/:slug/forms plus a submissions list endpoint, all org-scoped.
 date: 2026-05-14T09:05:00Z
 product: ferrgrowth
 type: new
