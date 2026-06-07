@@ -1,13 +1,13 @@
 ---
-title: 'FerrFlow · bot releases now work under branch rulesets'
-summary: The FerrFlow bot identity pushes releases correctly even when the release branch is protected by a ruleset that bypasses ferrflow[bot].
+title: 'FerrFlow · bot releases now work under branch rulesets (v5.2.2)'
+summary: The FerrFlow bot identity pushes releases correctly even when the release branch is protected by a ruleset that bypasses ferrflow[bot]. Shipped in FerrFlow v5.2.2.
 date: 2026-06-07T11:00:00Z
 product: ferrflow
 type: fix
 prLink: https://github.com/FerrLabs/FerrFlow/pull/539
 ---
 
-Releases run with `bot: true` now push correctly even when your release branch is protected by a GitHub ruleset that bypasses `ferrflow[bot]`. Before this fix, the release commit could be rejected with `GH013: required status checks are expected` even though `ferrflow[bot]` was listed as a bypass actor.
+Releases run with `bot: true` now push correctly even when your release branch is protected by a GitHub ruleset that bypasses `ferrflow[bot]`. Before this fix, the release commit could be rejected with `GH013: required status checks are expected` even though `ferrflow[bot]` was listed as a bypass actor. Shipped in **FerrFlow v5.2.2** — pinning the major (`FerrLabs/FerrFlow@v5`) picks it up automatically.
 
 ### Why it happened
 
@@ -26,4 +26,4 @@ FerrFlow now resets that persisted extra-header on its own git invocations, so i
     bot: true
 ```
 
-No config changes needed — upgrade to `@v5` and protected release branches just work.
+No config changes needed — upgrade to `@v5` (or pin `@v5.2.2` explicitly) and protected release branches just work.
