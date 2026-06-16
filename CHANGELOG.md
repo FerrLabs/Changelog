@@ -4,6 +4,12 @@ All notable changes to `changelog` will be documented here.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [0.2.0] - 2026-06-16
+
+### Features
+
+- feat(changelog): document FerrFlow declarative publishers (#41)
+
 ## [0.1.0] - 2026-06-08
 
 ### Features
