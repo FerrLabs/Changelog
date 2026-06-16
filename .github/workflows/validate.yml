@@ -1,0 +1,23 @@
+name: Validate entries
+
+on:
+  push:
+    branches: [main]
+    paths: ['entries/**', 'scripts/validate-entries.mjs', '.github/workflows/validate.yml']
+  pull_request:
+    paths: ['entries/**', 'scripts/validate-entries.mjs', '.github/workflows/validate.yml']
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    name: Validate entry frontmatter
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+      - name: Validate entries/*.md frontmatter
+        run: node scripts/validate-entries.mjs
