@@ -4,6 +4,12 @@ All notable changes to `changelog` will be documented here.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [0.4.0] - 2026-06-25
+
+### Features
+
+- feat(entries): add ferrflow publish tag auto-scope changelog entry (#45)
+
 ## [0.3.0] - 2026-06-25
 
 ### Features
