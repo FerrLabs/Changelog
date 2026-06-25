@@ -4,6 +4,12 @@ All notable changes to `changelog` will be documented here.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [0.3.0] - 2026-06-25
+
+### Features
+
+- feat(entries): add --jobs / FERRFLOW_JOBS changelog entry (#44)
+
 ## [0.2.1] - 2026-06-16
 
 ### Bug Fixes
