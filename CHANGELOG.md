@@ -4,6 +4,12 @@ All notable changes to `changelog` will be documented here.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [0.5.0] - 2026-06-26
+
+### Features
+
+- feat(ferrflow): add Windows arm64 + Linux armv7 prebuilt binaries entry (#46)
+
 ## [0.4.0] - 2026-06-25
 
 ### Features
