@@ -4,6 +4,12 @@ All notable changes to `changelog` will be documented here.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [0.6.0] - 2026-07-07
+
+### Features
+
+- feat(ferrgrowth): builder blocks — button, rich hero, CTA section, navbar, footer (#48)
+
 ## [0.5.0] - 2026-06-26
 
 ### Features
