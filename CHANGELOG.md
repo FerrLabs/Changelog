@@ -4,6 +4,12 @@ All notable changes to `changelog` will be documented here.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [0.7.0] - 2026-07-13
+
+### Features
+
+- feat(entry): FerrFlow expanded release hook points (#50)
+
 ## [0.6.0] - 2026-07-07
 
 ### Features
