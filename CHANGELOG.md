@@ -4,6 +4,12 @@ All notable changes to `changelog` will be documented here.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [0.8.0] - 2026-07-15
+
+### Features
+
+- feat(ci): dispatch Renovate when the rebase box is ticked (#51)
+
 ## [0.7.0] - 2026-07-13
 
 ### Features
