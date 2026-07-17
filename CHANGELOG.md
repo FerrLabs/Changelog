@@ -4,6 +4,12 @@ All notable changes to `changelog` will be documented here.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [0.9.0] - 2026-07-17
+
+### Features
+
+- feat: FerrFlow migrate from semantic-release (#52)
+
 ## [0.8.0] - 2026-07-15
 
 ### Features
