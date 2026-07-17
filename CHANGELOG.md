@@ -4,6 +4,12 @@ All notable changes to `changelog` will be documented here.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [0.11.0] - 2026-07-17
+
+### Features
+
+- feat: FerrFlow linked and fixed package version groups (#54)
+
 ## [0.10.0] - 2026-07-17
 
 ### Features
