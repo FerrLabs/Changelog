@@ -4,6 +4,12 @@ All notable changes to `changelog` will be documented here.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [0.10.0] - 2026-07-17
+
+### Features
+
+- feat: FerrFlow telemetry removed (#53)
+
 ## [0.9.0] - 2026-07-17
 
 ### Features
