@@ -4,6 +4,12 @@ All notable changes to `changelog` will be documented here.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [0.14.0] - 2026-07-18
+
+### Features
+
+- feat: FerrFlow Bitbucket Cloud support (#59)
+
 ## [0.13.2] - 2026-07-18
 
 ### Bug Fixes
