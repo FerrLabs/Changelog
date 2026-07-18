@@ -4,6 +4,12 @@ All notable changes to `changelog` will be documented here.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [0.12.0] - 2026-07-18
+
+### Features
+
+- feat: FerrFlow ferrflow doctor diagnostic subcommand (#55)
+
 ## [0.11.0] - 2026-07-17
 
 ### Features
