@@ -4,6 +4,12 @@ All notable changes to `changelog` will be documented here.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [0.13.1] - 2026-07-18
+
+### Bug Fixes
+
+- fix: FerrFlow robust BREAKING CHANGE detection (#57)
+
 ## [0.13.0] - 2026-07-18
 
 ### Features
