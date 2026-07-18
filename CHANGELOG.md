@@ -4,6 +4,12 @@ All notable changes to `changelog` will be documented here.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [0.13.2] - 2026-07-18
+
+### Bug Fixes
+
+- perf: FerrFlow faster repeat runs via commit-graph (#58)
+
 ## [0.13.1] - 2026-07-18
 
 ### Bug Fixes
