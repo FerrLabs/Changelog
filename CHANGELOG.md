@@ -4,6 +4,12 @@ All notable changes to `changelog` will be documented here.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [0.16.0] - 2026-07-21
+
+### Features
+
+- feat: add changelog entry for the hosted FerrFlow API (#70)
+
 ## [0.15.0] - 2026-07-18
 
 ### Features
