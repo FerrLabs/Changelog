@@ -4,6 +4,12 @@ All notable changes to `changelog` will be documented here.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [0.18.0] - 2026-07-27
+
+### Features
+
+- feat: add changelog entry for tag/release ordering fix (#75)
+
 ## [0.17.0] - 2026-07-25
 
 ### Features
