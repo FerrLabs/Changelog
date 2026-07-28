@@ -4,6 +4,12 @@ All notable changes to `changelog` will be documented here.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [0.21.0] - 2026-07-28
+
+### Features
+
+- feat: add changelog entry for changesets workspace discovery (#78)
+
 ## [0.20.0] - 2026-07-28
 
 ### Features
