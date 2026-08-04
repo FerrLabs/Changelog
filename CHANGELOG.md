@@ -4,6 +4,12 @@ All notable changes to `changelog` will be documented here.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [0.22.0] - 2026-08-04
+
+### Features
+
+- feat: add changelog entry for diff package scoping (#80)
+
 ## [0.21.0] - 2026-07-28
 
 ### Features
