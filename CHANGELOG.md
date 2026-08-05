@@ -4,6 +4,12 @@ All notable changes to `changelog` will be documented here.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [0.23.0] - 2026-08-05
+
+### Features
+
+- feat(entries): FerrFlow API moves to api.ferrflow.com (#81)
+
 ## [0.22.0] - 2026-08-04
 
 ### Features
