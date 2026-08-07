@@ -4,6 +4,12 @@ All notable changes to `changelog` will be documented here.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [0.24.0] - 2026-08-07
+
+### Features
+
+- feat(ferrflow): add MIT relicense and Action security entries (#82)
+
 ## [0.23.0] - 2026-08-05
 
 ### Features
