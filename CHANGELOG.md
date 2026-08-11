@@ -4,6 +4,12 @@ All notable changes to `changelog` will be documented here.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [0.25.0] - 2026-08-11
+
+### Features
+
+- feat(ferrflow): add the configurable commit formats entry (#92)
+
 ## [0.24.0] - 2026-08-07
 
 ### Features
