@@ -4,6 +4,12 @@ All notable changes to `changelog` will be documented here.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [0.26.0] - 2026-08-15
+
+### Features
+
+- feat(entries): ferrflow lockfile refresh fix (#107)
+
 ## [0.25.0] - 2026-08-11
 
 ### Features
