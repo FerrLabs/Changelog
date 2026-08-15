@@ -11,7 +11,7 @@ prLink: https://github.com/FerrLabs/FerrLens-Cloud/pull/54
 
 - The final HTTP status, colour-coded by class (2xx teal, 3xx purple, 4xx amber, 5xx red).
 - Total round-trip time in milliseconds.
-- The redirect chain — every hop with its status and `Location` target — so you can spot a chain that's too long or that goes from HTTPS back to HTTP somewhere.
+- The redirect chain. Every hop with its status and `Location` target: so you can spot a chain that's too long or that goes from HTTPS back to HTTP somewhere.
 - Every response header, alpha-sorted.
 
 Useful for debugging an OG card that won't render (need to check what `content-type` Twitter saw), a missing cookie (which `Set-Cookie` actually came back), or a CDN that's adding a stale `Cache-Control` somewhere.

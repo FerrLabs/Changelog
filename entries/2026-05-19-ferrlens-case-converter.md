@@ -1,6 +1,6 @@
 ---
 title: 'Case converter'
-summary: Convert between 11 case styles — camelCase, PascalCase, snake_case, SCREAMING_SNAKE, kebab-case, COBOL-CASE, dot.case, Title Case, Sentence case, lower, UPPER.
+summary: Convert between 11 case styles: camelCase, PascalCase, snake_case, SCREAMING_SNAKE, kebab-case, COBOL-CASE, dot.case, Title Case, Sentence case, lower, UPPER.
 date: 2026-05-19T16:05:00+02:00
 product: ferrlens
 type: new

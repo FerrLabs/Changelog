@@ -1,5 +1,5 @@
 ---
-title: 'Admin · Editable org subscriptions + global discounts + promo codes'
+title: 'Admin: Editable org subscriptions + global discounts + promo codes'
 summary: Staff can now edit any org's subscriptions inline from the admin console, and a new Billing page manages site-wide percentage discounts and user-redeemable promo codes with stacking rules.
 date: 2026-05-21T16:00:00Z
 product: ferrlabs
@@ -15,13 +15,13 @@ The Subscriptions card on each org detail page is no longer read-only. Tier and 
 
 ### Global discounts
 
-A new `/admin/billing` page hosts two tabs. The first manages **global discounts** — site-wide, time-bounded percentage offs (think "summer sale −50%"). Set a label, a percent, an optional end date, and the products it applies to. Only one global discount can be active at any moment — the database enforces it with a partial unique index, so two staff members racing to create overlapping discounts can't.
+A new `/admin/billing` page hosts two tabs. The first manages **global discounts**: site-wide, time-bounded percentage offs (think "summer sale −50%"). Set a label, a percent, an optional end date, and the products it applies to. Only one global discount can be active at any moment: the database enforces it with a partial unique index, so two staff members racing to create overlapping discounts can't.
 
 ### Promo codes
 
 The second tab handles **promo codes** that customers can redeem. Each code carries a percent or amount off, a duration (`once`, `forever`, or `repeating N months`), an optional max-redemptions cap, and optional restrictions on which products and tiers it applies to.
 
-The important bit: a `stackable_with_global` flag controls interaction with the active global discount. **Default is non-stackable** — redeeming a code overrides the global discount for that org. Flip the toggle on a per-code basis when stacking is genuinely intended. Codes are uppercase-normalised on insert and uniqueness is DB-enforced.
+The important bit: a `stackable_with_global` flag controls interaction with the active global discount. **Default is non-stackable**: redeeming a code overrides the global discount for that org. Flip the toggle on a per-code basis when stacking is genuinely intended. Codes are uppercase-normalised on insert and uniqueness is DB-enforced.
 
 ### Schema
 

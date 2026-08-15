@@ -1,5 +1,5 @@
 ---
-title: "FerrTrack · 'My issues' wired to the API + mocked nav stripped"
+title: "FerrTrack: 'My issues' wired to the API + mocked nav stripped"
 summary: Inbox no longer fans out one request per project. The 'My issues' page is real data. Subscribed, Active cycle, Roadmap, Docs and Teams are gone until they have a backing data model.
 date: 2026-05-14T11:10:00Z
 product: ferrtrack
@@ -11,4 +11,4 @@ Follow-up to the org-scoped issues API. `MyIssues.tsx` used to render `trackMock
 
 The Inbox itself dropped its `Promise.all(projects.map(api.issues.listForProject))` fan-out and now does one server-scoped call. At our largest tenant that's ~30 fewer round trips per Inbox render.
 
-The remaining mocked secondary pages (`Subscribed`, `Active cycle`, `Roadmap`, `Docs`, `Teams`) had no data model — they only displayed `trackMockData.ts`. Stripped from the sidebar, routes dropped, page files + `components/track/Track.tsx` + `lib/trackMockData.ts` deleted, hardcoded `TEAMS` constant gone with them. If/when a real Cycles or Teams model lands the nav can come back; it won't ship as fake data again.
+The remaining mocked secondary pages (`Subscribed`, `Active cycle`, `Roadmap`, `Docs`, `Teams`) had no data model. They only displayed `trackMockData.ts`. Stripped from the sidebar, routes dropped, page files + `components/track/Track.tsx` + `lib/trackMockData.ts` deleted, hardcoded `TEAMS` constant gone with them. If/when a real Cycles or Teams model lands the nav can come back; it won't ship as fake data again.

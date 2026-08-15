@@ -1,5 +1,5 @@
 ---
-title: 'FerrLabs · Navbar + Footer enfin traduits sur les 3 sites SaaS'
+title: 'FerrLabs: Navbar + Footer enfin traduits sur les 3 sites SaaS'
 summary: 'FerrTrack / FerrVault / FerrGrowth: les pages /fr/ affichaient une navbar et un footer en anglais. Tout passe maintenant par t(lang, key).'
 date: 2026-04-29T15:30:00Z
 product: 'ferrlabs'

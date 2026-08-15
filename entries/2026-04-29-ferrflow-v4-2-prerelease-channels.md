@@ -1,5 +1,5 @@
 ---
-title: 'FerrFlow v4.2 · pre-release channels'
+title: 'FerrFlow v4.2: pre-release channels'
 summary: 'Ship `alpha`, `beta`, and `rc` releases without touching your floating tags.'
 date: 2026-04-29T09:00:00Z
 product: 'ferrflow'
@@ -15,7 +15,7 @@ ferrflow release --prerelease=beta
 
 ## Why we built it
 
-Three teams asked for it last quarter — every one of them was using a hacky `--no-publish` workaround. This fixes the workaround.
+Three teams asked for it last quarter. Every one of them was using a hacky `--no-publish` workaround. This fixes the workaround.
 
 ## What changes
 

@@ -1,5 +1,5 @@
 ---
-title: 'FerrLabs · noindex on private app surfaces'
+title: 'FerrLabs: noindex on private app surfaces'
 summary: 'Every app/admin/auth UI now ships meta robots + robots.txt + nginx X-Robots-Tag for defence-in-depth no-indexing. Search engines stop crawling auth flows and dashboards.'
 date: 2026-04-29T11:00:00Z
 product: 'ferrlabs'

@@ -11,4 +11,4 @@ prLink: https://github.com/FerrLabs/FerrLens-Cloud/pull/55
 
 Useful for setting up an IDN in DNS (which only takes ASCII), verifying that a suspicious link in an email is what it claims to be (homoglyph attacks: `аpple.com` with a Cyrillic `а`), or copying a non-ASCII domain into a config file that doesn't speak UTF-8.
 
-Uses the browser's built-in URL / IDNA implementation — same algorithm Chrome and Firefox use for address-bar normalisation. No remote call.
+Uses the browser's built-in URL / IDNA implementation: same algorithm Chrome and Firefox use for address-bar normalisation. No remote call.

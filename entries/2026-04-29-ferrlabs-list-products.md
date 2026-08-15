@@ -1,5 +1,5 @@
 ---
-title: 'FerrLabs · products switch to a list layout'
+title: 'FerrLabs: products switch to a list layout'
 summary: 'The 4 product slots on ferrlabs.com are now a hairline-divided list with Fraunces 64px names, accent dot, italic tagline. Replaces the asymmetric card grid.'
 date: 2026-04-29T07:30:00Z
 product: 'ferrlabs'
