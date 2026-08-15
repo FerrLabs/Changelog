@@ -1,5 +1,5 @@
 ---
-title: Legal pages published: DPA, subprocessors, security
+title: 'Legal pages published: DPA, subprocessors, security'
 summary: ferrfleet.com now hosts the standalone Data Processing Addendum, subprocessor list, and security overview in EN and FR.
 date: 2026-05-13
 product: ferrfleet

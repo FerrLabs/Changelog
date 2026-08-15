@@ -1,6 +1,6 @@
 ---
 title: 'HTTP status lookup'
-summary: Searchable dictionary of HTTP status codes: number, reason phrase, category and what each one actually means in practice.
+summary: 'Searchable dictionary of HTTP status codes: number, reason phrase, category and what each one actually means in practice.'
 date: 2026-05-21T08:00:00+02:00
 product: ferrlens
 type: new

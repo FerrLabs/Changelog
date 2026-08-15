@@ -1,6 +1,6 @@
 ---
 title: 'FerrFlow: Faster repeat runs via commit-graph'
-summary: On large repositories, FerrFlow now writes a git commit-graph on the first run so that later `check` and `release` walks are materially faster: a benefit that repeat users (pre-commit hooks, local dev, warm CI runners) get for free.
+summary: 'On large repositories, FerrFlow now writes a git commit-graph on the first run so that later `check` and `release` walks are materially faster: a benefit that repeat users (pre-commit hooks, local dev, warm CI runners) get for free.'
 date: 2026-07-18T12:00:00Z
 product: ferrflow
 type: perf

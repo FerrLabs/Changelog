@@ -1,6 +1,6 @@
 ---
 title: 'FerrLens: Diff tool is live'
-summary: Paste two blobs, get a side-by-side or unified diff with inline character highlights. Whitespace and case toggles. Fully client-side: the URL fragment encodes both inputs so you can share without uploading anything.
+summary: 'Paste two blobs, get a side-by-side or unified diff with inline character highlights. Whitespace and case toggles. Fully client-side: the URL fragment encodes both inputs so you can share without uploading anything.'
 date: 2026-05-19T22:00:00Z
 product: ferrlens
 type: new

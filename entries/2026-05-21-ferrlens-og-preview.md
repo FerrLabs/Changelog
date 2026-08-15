@@ -1,6 +1,6 @@
 ---
 title: 'OG card preview'
-summary: See how a URL renders as a Twitter card, LinkedIn share and Slack unfurl: side by side, with warnings for missing or oversized fields.
+summary: 'See how a URL renders as a Twitter card, LinkedIn share and Slack unfurl: side by side, with warnings for missing or oversized fields.'
 date: 2026-05-21T09:05:00+02:00
 product: ferrlens
 type: new

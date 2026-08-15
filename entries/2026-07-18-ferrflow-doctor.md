@@ -1,6 +1,6 @@
 ---
 title: 'FerrFlow: ferrflow doctor'
-summary: A new `ferrflow doctor` subcommand runs read-only diagnostics on your repo, config, and forge setup and prints a categorised report: so "is my setup sane?" has a first-class answer instead of grepping `--verbose` logs.
+summary: 'A new `ferrflow doctor` subcommand runs read-only diagnostics on your repo, config, and forge setup and prints a categorised report: so "is my setup sane?" has a first-class answer instead of grepping `--verbose` logs.'
 date: 2026-07-18T09:00:00Z
 product: ferrflow
 type: new

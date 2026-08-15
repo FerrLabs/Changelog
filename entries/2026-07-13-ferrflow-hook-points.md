@@ -1,6 +1,6 @@
 ---
 title: 'FerrFlow: Six new release hook points: post-commit, pre-tag, post-tag, pre-release, on-success, on-error'
-summary: The release lifecycle gains six new hook points so you can run commands at the exact commit/tag/push boundaries: publish between tag and push, notify once when a release finishes, or react to a failure with the error code in hand.
+summary: 'The release lifecycle gains six new hook points so you can run commands at the exact commit/tag/push boundaries: publish between tag and push, notify once when a release finishes, or react to a failure with the error code in hand.'
 date: 2026-07-13T09:00:00Z
 product: ferrflow
 type: new

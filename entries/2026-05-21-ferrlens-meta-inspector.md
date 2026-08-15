@@ -1,6 +1,6 @@
 ---
 title: 'Meta tag inspector'
-summary: Fetch any URL and see every meta + link tag grouped by namespace: standard, OpenGraph, Twitter, Facebook, http-equiv, link.
+summary: 'Fetch any URL and see every meta + link tag grouped by namespace: standard, OpenGraph, Twitter, Facebook, http-equiv, link.'
 date: 2026-05-21T09:00:00+02:00
 product: ferrlens
 type: new

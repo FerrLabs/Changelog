@@ -1,6 +1,6 @@
 ---
 title: 'File hash'
-summary: Drop a file, get its MD5, SHA-1, SHA-256 and SHA-512: computed locally, the file never leaves your browser.
+summary: 'Drop a file, get its MD5, SHA-1, SHA-256 and SHA-512: computed locally, the file never leaves your browser.'
 date: 2026-05-19T16:15:00+02:00
 product: ferrlens
 type: new

@@ -1,6 +1,6 @@
 ---
 title: 'FerrFlow: control parallelism with --jobs / FERRFLOW_JOBS'
-summary: FerrFlow now exposes a global --jobs <N> flag (and FERRFLOW_JOBS env var) to cap how many threads it uses for CPU-parallel work. Default stays all logical cores; --jobs 1 forces single-threaded: handy for constrained CI runners and reproducible benchmarks.
+summary: 'FerrFlow now exposes a global --jobs <N> flag (and FERRFLOW_JOBS env var) to cap how many threads it uses for CPU-parallel work. Default stays all logical cores; --jobs 1 forces single-threaded: handy for constrained CI runners and reproducible benchmarks.'
 date: 2026-06-25T10:00:00Z
 product: ferrflow
 type: new

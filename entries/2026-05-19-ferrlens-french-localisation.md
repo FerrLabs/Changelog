@@ -1,6 +1,6 @@
 ---
 title: 'FerrLens disponible en français'
-summary: 38 nouvelles routes /fr/: home, pricing, account, les 8 pages légales, le changelog et les 21 outils: avec un sélecteur EN/FR en haut de chaque page.
+summary: '38 nouvelles routes /fr/: home, pricing, account, les 8 pages légales, le changelog et les 21 outils: avec un sélecteur EN/FR en haut de chaque page.'
 date: 2026-05-19T18:30:00+02:00
 product: ferrlens
 type: new

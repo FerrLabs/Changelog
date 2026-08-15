@@ -1,6 +1,6 @@
 ---
 title: 'ASCII / Unicode inspector'
-summary: Codepoint-by-codepoint breakdown of any string: UTF-8 bytes, UTF-16 units, HTML entities, CSS escape and Unicode block.
+summary: 'Codepoint-by-codepoint breakdown of any string: UTF-8 bytes, UTF-16 units, HTML entities, CSS escape and Unicode block.'
 date: 2026-05-21T08:20:00+02:00
 product: ferrlens
 type: new

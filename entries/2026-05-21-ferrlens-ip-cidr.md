@@ -1,6 +1,6 @@
 ---
 title: 'IP / CIDR calculator'
-summary: IPv4 and IPv6 CIDR math: network, broadcast, usable host range, netmask, total hosts, and address classification.
+summary: 'IPv4 and IPv6 CIDR math: network, broadcast, usable host range, netmask, total hosts, and address classification.'
 date: 2026-05-21T08:10:00+02:00
 product: ferrlens
 type: new

@@ -1,6 +1,6 @@
 ---
 title: 'FerrGrowth: Five new builder blocks: button, rich hero, CTA section, navbar, footer'
-summary: The page builder gains a standalone button primitive and four layout blocks: a rich hero with background image and overlay, a CTA conversion band, a top navbar, and a multi-column footer: so you can reproduce a real website's full page chrome without leaving the builder.
+summary: 'The page builder gains a standalone button primitive and four layout blocks: a rich hero with background image and overlay, a CTA conversion band, a top navbar, and a multi-column footer: so you can reproduce a real website''s full page chrome without leaving the builder.'
 date: 2026-07-07T09:00:00Z
 product: ferrgrowth
 type: new

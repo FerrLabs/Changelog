@@ -1,6 +1,6 @@
 ---
 title: 'HMAC generator'
-summary: Generate HMAC-SHA1/256/384/512 of a message with a key in UTF-8, hex or Base64: through the native Web Crypto API, in your browser.
+summary: 'Generate HMAC-SHA1/256/384/512 of a message with a key in UTF-8, hex or Base64: through the native Web Crypto API, in your browser.'
 date: 2026-05-19T15:38:00+02:00
 product: ferrlens
 type: new

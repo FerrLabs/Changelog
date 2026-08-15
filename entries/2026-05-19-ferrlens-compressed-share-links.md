@@ -1,6 +1,6 @@
 ---
 title: 'Compressed, opaque share links'
-summary: Share links from any tool now embed state as a single lz-string-compressed JSON blob instead of plain key=value pairs: 30-70% shorter, no longer human-readable.
+summary: 'Share links from any tool now embed state as a single lz-string-compressed JSON blob instead of plain key=value pairs: 30-70% shorter, no longer human-readable.'
 date: 2026-05-19T18:00:00+02:00
 product: ferrlens
 type: perf

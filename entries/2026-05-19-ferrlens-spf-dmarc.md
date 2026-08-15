@@ -1,6 +1,6 @@
 ---
 title: 'SPF / DKIM / DMARC inspector'
-summary: Pull, parse and score a domain's email-authentication TXT records: SPF mechanisms, DMARC policy + reports, ~30 common DKIM selectors checked in parallel.
+summary: 'Pull, parse and score a domain''s email-authentication TXT records: SPF mechanisms, DMARC policy + reports, ~30 common DKIM selectors checked in parallel.'
 date: 2026-05-19T19:30:00+02:00
 product: ferrlens
 type: new

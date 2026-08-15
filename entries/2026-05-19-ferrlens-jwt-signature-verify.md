@@ -1,6 +1,6 @@
 ---
 title: 'JWT signature verify'
-summary: Verify a JWT against a public key (PEM or JWK): HS, RS, PS and ES families, all algorithms: through the native Web Crypto API.
+summary: 'Verify a JWT against a public key (PEM or JWK): HS, RS, PS and ES families, all algorithms: through the native Web Crypto API.'
 date: 2026-05-19T16:12:00+02:00
 product: ferrlens
 type: new

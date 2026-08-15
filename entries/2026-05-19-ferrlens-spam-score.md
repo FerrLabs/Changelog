@@ -1,6 +1,6 @@
 ---
 title: 'Spam score: SpamAssassin-style heuristics'
-summary: Drop a subject + body, get a 0-10 spam score with the exact rules that flagged each line. Runs entirely in your browser: your draft never leaves the page.
+summary: 'Drop a subject + body, get a 0-10 spam score with the exact rules that flagged each line. Runs entirely in your browser: your draft never leaves the page.'
 date: 2026-05-19T19:45:00+02:00
 product: ferrlens
 type: new

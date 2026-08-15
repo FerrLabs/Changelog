@@ -1,6 +1,6 @@
 ---
 title: 'Password generator'
-summary: Generate strong passwords with configurable charsets, a "no look-alikes" mode, an entropy bar and a crack-time estimate: backed by crypto.getRandomValues.
+summary: 'Generate strong passwords with configurable charsets, a "no look-alikes" mode, an entropy bar and a crack-time estimate: backed by crypto.getRandomValues.'
 date: 2026-05-19T15:42:00+02:00
 product: ferrlens
 type: new

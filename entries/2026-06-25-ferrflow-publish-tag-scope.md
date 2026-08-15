@@ -1,6 +1,6 @@
 ---
 title: 'FerrFlow: ferrflow publish auto-scopes to the triggering tag'
-summary: ferrflow publish now figures out which package to publish from the tag that triggered the run: so one workflow publishes each package on its own tag, no per-package wiring. It also takes multiple package names, and a --all flag to force everything.
+summary: 'ferrflow publish now figures out which package to publish from the tag that triggered the run: so one workflow publishes each package on its own tag, no per-package wiring. It also takes multiple package names, and a --all flag to force everything.'
 date: 2026-06-25T11:00:00Z
 product: ferrflow
 type: new

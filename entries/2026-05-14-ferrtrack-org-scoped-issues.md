@@ -1,6 +1,6 @@
 ---
 title: 'FerrTrack: Org-scoped reads + new GET /v1/issues (breaking)'
-summary: Closes a cross-tenant data leak: issue, user, and comment reads now enforce org ownership. Adds /v1/issues with assignee/status/kind filters to replace the Inbox N+1 fan-out.
+summary: 'Closes a cross-tenant data leak: issue, user, and comment reads now enforce org ownership. Adds /v1/issues with assignee/status/kind filters to replace the Inbox N+1 fan-out.'
 date: 2026-05-14T11:05:00Z
 product: ferrtrack
 type: breaking

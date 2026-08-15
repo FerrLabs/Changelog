@@ -1,6 +1,6 @@
 ---
 title: 'FerrFlow: Robust BREAKING CHANGE detection'
-summary: FerrFlow now recognises mixed-case, hyphenated, and lowercase `BREAKING CHANGE` footers: and a `!` typed inside the scope (`feat(api!):`): so a real breaking change no longer slips through and skips the major bump.
+summary: 'FerrFlow now recognises mixed-case, hyphenated, and lowercase `BREAKING CHANGE` footers: and a `!` typed inside the scope (`feat(api!):`): so a real breaking change no longer slips through and skips the major bump.'
 date: 2026-07-18T11:00:00Z
 product: ferrflow
 type: fix

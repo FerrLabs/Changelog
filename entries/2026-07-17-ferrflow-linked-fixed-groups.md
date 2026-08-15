@@ -1,6 +1,6 @@
 ---
 title: 'FerrFlow: Linked and fixed package version groups'
-summary: New `linked` and `fixed` workspace options let a set of monorepo packages share a version: when one bumps, the whole group moves to the same version, the way changesets and lerna do it.
+summary: 'New `linked` and `fixed` workspace options let a set of monorepo packages share a version: when one bumps, the whole group moves to the same version, the way changesets and lerna do it.'
 date: 2026-07-17T09:00:00Z
 product: ferrflow
 type: new

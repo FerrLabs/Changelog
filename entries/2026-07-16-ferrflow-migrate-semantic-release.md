@@ -1,6 +1,6 @@
 ---
 title: 'FerrFlow: Migrate from semantic-release in one command'
-summary: A new `ferrflow migrate` command reads your existing `.releaserc` and generates the equivalent FerrFlow config: mapping tag format, branches, and the common plugins, and surfacing anything without an equivalent instead of guessing.
+summary: 'A new `ferrflow migrate` command reads your existing `.releaserc` and generates the equivalent FerrFlow config: mapping tag format, branches, and the common plugins, and surfacing anything without an equivalent instead of guessing.'
 date: 2026-07-16T09:00:00Z
 product: ferrflow
 type: new

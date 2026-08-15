@@ -1,6 +1,6 @@
 ---
 title: 'CT log search'
-summary: Find every TLS certificate ever issued for a domain by querying the public Certificate Transparency logs (crt.sh): great for subdomain discovery and rogue-cert detection.
+summary: 'Find every TLS certificate ever issued for a domain by querying the public Certificate Transparency logs (crt.sh): great for subdomain discovery and rogue-cert detection.'
 date: 2026-05-21T09:20:00+02:00
 product: ferrlens
 type: new

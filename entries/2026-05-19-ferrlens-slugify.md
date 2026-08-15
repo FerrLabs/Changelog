@@ -1,6 +1,6 @@
 ---
 title: 'Slugify'
-summary: Turn any string: accented, punctuated, multi-word: into a clean URL slug. Configurable separator, max length, and case.
+summary: 'Turn any string: accented, punctuated, multi-word: into a clean URL slug. Configurable separator, max length, and case.'
 date: 2026-05-19T16:08:00+02:00
 product: ferrlens
 type: new
