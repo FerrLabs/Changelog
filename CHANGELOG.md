@@ -4,6 +4,12 @@ All notable changes to `changelog` will be documented here.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [0.28.0] - 2026-08-20
+
+### Features
+
+- feat(entries): ferrflow versionSource picks the tag or the file (#117)
+
 ## [0.27.0] - 2026-08-20
 
 ### Features
