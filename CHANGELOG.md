@@ -4,6 +4,12 @@ All notable changes to `changelog` will be documented here.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [0.29.2] - 2026-08-25
+
+### Bug Fixes
+
+- fix(entries): FerrFlow push error classification (#131)
+
 ## [0.29.1] - 2026-08-25
 
 ### Bug Fixes
