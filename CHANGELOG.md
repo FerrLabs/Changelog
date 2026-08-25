@@ -4,6 +4,12 @@ All notable changes to `changelog` will be documented here.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [0.29.1] - 2026-08-25
+
+### Bug Fixes
+
+- fix(entries): FerrFlow pr mode tags on merge (#130)
+
 ## [0.29.0] - 2026-08-25
 
 ### Features
