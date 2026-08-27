@@ -4,6 +4,12 @@ All notable changes to `changelog` will be documented here.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [0.30.1] - 2026-08-27
+
+### Bug Fixes
+
+- fix(entries): FerrFlow workspace defaults without a workspace block (#136)
+
 ## [0.30.0] - 2026-08-27
 
 ### Features
