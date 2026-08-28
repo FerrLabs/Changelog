@@ -4,6 +4,12 @@ All notable changes to `changelog` will be documented here.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [0.31.1] - 2026-08-28
+
+### Bug Fixes
+
+- fix(entries): FerrFlow annotated tag divergence false positive (#139)
+
 ## [0.31.0] - 2026-08-27
 
 ### Features
