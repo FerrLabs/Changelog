@@ -4,6 +4,12 @@ All notable changes to `changelog` will be documented here.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [0.31.4] - 2026-08-28
+
+### Bug Fixes
+
+- fix(entries): FerrFlow cleans up the lock and tokens on a crash (#144)
+
 ## [0.31.3] - 2026-08-28
 
 ### Bug Fixes
