@@ -1,6 +1,6 @@
 ---
-title: 'FerrFlow · commit formats are configurable, and the defaults are more permissive'
-summary: 'workspace.commitFormats lets you declare which commit subjects map to which bump level. The defaults now also recognise Feat:, Fix/, feature: and friends — which is why this ships as v7.'
+title: 'FerrFlow: commit formats are configurable, and the defaults are more permissive'
+summary: 'workspace.commitFormats lets you declare which commit subjects map to which bump level. The defaults now also recognise Feat:, Fix/, feature: and friends. Which is why this ships as v7.'
 date: 2026-08-10T18:00:00Z
 product: ferrflow
 type: breaking
@@ -8,7 +8,7 @@ prLink: https://github.com/FerrLabs/FerrFlow/pull/824
 docsLink: https://ferrflow.com/docs/configuration/config-file
 ---
 
-FerrFlow only ever recognised strict lowercase conventional prefixes. Teams whose history uses `Feat/add-login`, `Fix: resolve crash` or `feature:` — the shapes that come out of branch-named squash merges — got no releases at all, with nothing in the output explaining why.
+FerrFlow only ever recognised strict lowercase conventional prefixes. Teams whose history uses `Feat/add-login`, `Fix: resolve crash` or `feature:`: the shapes that come out of branch-named squash merges: got no releases at all, with nothing in the output explaining why.
 
 `workspace.commitFormats` now declares the mapping. Each of `major`, `minor` and `patch` takes a pattern, a list of patterns, or `"all"`:
 
@@ -41,6 +41,6 @@ To keep the old strictness, declare it:
 }
 ```
 
-Breaking markers are not configurable and never needed to be: `feat!:`, `fix(api)!:`, the `feat(api!):` typo and a `BREAKING CHANGE:` footer are detected structurally, whatever patterns you set. A glob cannot express them precisely — `*!:*` would match any subject containing `!:` anywhere, turning `fix: handle the !: token in the parser` into a major release.
+Breaking markers are not configurable and never needed to be: `feat!:`, `fix(api)!:`, the `feat(api!):` typo and a `BREAKING CHANGE:` footer are detected structurally, whatever patterns you set. A glob cannot express them precisely: `*!:*` would match any subject containing `!:` anywhere, turning `fix: handle the !: token in the parser` into a major release.
 
 **Action tag:** `v7` is the current floating major. Update `uses: FerrLabs/FerrFlow@v6` to `@v7`; `v6` will not receive further releases.

@@ -1,6 +1,6 @@
 ---
-title: 'FerrLabs · editorial footer'
-summary: '4-column footer with brand colophon, product chips with live-status glow, "All systems normal" pulse — replaces the generic SaaS footer.'
+title: 'FerrLabs: editorial footer'
+summary: '4-column footer with brand colophon, product chips with live-status glow, "All systems normal" pulse: replaces the generic SaaS footer.'
 date: 2026-04-29T09:30:00Z
 product: 'ferrlabs'
 type: 'new'

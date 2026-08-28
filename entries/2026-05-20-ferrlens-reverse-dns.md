@@ -7,6 +7,6 @@ type: new
 prLink: https://github.com/FerrLabs/FerrLens-Cloud/pull/54
 ---
 
-[/tools/reverse-dns](https://ferrlens.com/tools/reverse-dns) does a PTR lookup on any IPv4 or IPv6 address. Most consumer IPs have a generic ISP rDNS (`abc.def.adsl.example-isp.com`); server IPs should have one matching the hostname the operator uses. A mismatch is the first thing Gmail / Outlook look at when scoring a sending IP — your MX must resolve back to itself.
+[/tools/reverse-dns](https://ferrlens.com/tools/reverse-dns) does a PTR lookup on any IPv4 or IPv6 address. Most consumer IPs have a generic ISP rDNS (`abc.def.adsl.example-isp.com`); server IPs should have one matching the hostname the operator uses. A mismatch is the first thing Gmail / Outlook look at when scoring a sending IP: your MX must resolve back to itself.
 
 Pure DNS, no caching, runs in well under a second.

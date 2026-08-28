@@ -1,6 +1,6 @@
 ---
 title: 'CORS tester'
-summary: Send a preflight + actual request from a configurable Origin and see exactly which CORS headers the server returns — with pass/fail diagnostics.
+summary: 'Send a preflight + actual request from a configurable Origin and see exactly which CORS headers the server returns: with pass/fail diagnostics.'
 date: 2026-05-21T09:15:00+02:00
 product: ferrlens
 type: new
@@ -16,6 +16,6 @@ prLink: https://github.com/FerrLabs/FerrLens-Cloud/pull/56
 Diagnostic checks flag the common mistakes:
 - Origin not allowed (or no `Access-Control-Allow-Origin` returned at all).
 - Preflight doesn't list the requested method.
-- `Access-Control-Allow-Origin: *` combined with `Allow-Credentials: true` — invalid per spec, browsers will reject the response.
+- `Access-Control-Allow-Origin: *` combined with `Allow-Credentials: true`: invalid per spec, browsers will reject the response.
 
 Useful when integrating a third-party API, configuring a new endpoint, or chasing the maddening "request blocked by CORS policy" error.

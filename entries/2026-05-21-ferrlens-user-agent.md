@@ -1,6 +1,6 @@
 ---
 title: 'User-Agent parser'
-summary: Break down any User-Agent string into browser, engine, OS, device and bot heuristics — no remote call.
+summary: Break down any User-Agent string into browser, engine, OS, device and bot heuristics. No remote call.
 date: 2026-05-21T08:05:00+02:00
 product: ferrlens
 type: new

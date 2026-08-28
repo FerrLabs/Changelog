@@ -1,6 +1,6 @@
 ---
-title: 'FerrFlow · docs au style Claude'
-summary: 'ferrflow.com/docs/ adopte le langage visuel de docs.claude.com — fond off-white, accent FerrFlow orange, code blocks soft-dark, callouts à barre accent, layout 3 colonnes, composants <Card>/<CardGroup>/<Note>.'
+title: 'FerrFlow: docs au style Claude'
+summary: 'ferrflow.com/docs/ adopte le langage visuel de docs.claude.com: fond off-white, accent FerrFlow orange, code blocks soft-dark, callouts à barre accent, layout 3 colonnes, composants <Card>/<CardGroup>/<Note>.'
 date: 2026-04-29T16:30:00Z
 product: 'ferrflow'
 type: 'new'
@@ -19,4 +19,4 @@ Ce qui change visuellement :
 - **Breadcrumb small-caps** "Section › Page" au-dessus du H1.
 - **Widget "Was this page helpful?"** + lien "Edit on GitHub" en bas de chaque page.
 
-Layout, sidebar versions/langues, ExpressiveCode, FR translations et snapshots `v0/v1/v2/v3` héritent automatiquement (le CSS est global). Pagefind search inchangée — la modale Cmd+K garde son style Starlight pour l'instant.
+Layout, sidebar versions/langues, ExpressiveCode, FR translations et snapshots `v0/v1/v2/v3` héritent automatiquement (le CSS est global). Pagefind search inchangée. La modale Cmd+K garde son style Starlight pour l'instant.

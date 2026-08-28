@@ -1,6 +1,6 @@
 ---
-title: 'FerrVault · editorial Navbar + Footer'
-summary: 'vault.ferrlabs.com now ships the FerrLabs editorial design — Fraunces display, paper palette, emerald accent.'
+title: 'FerrVault: editorial Navbar + Footer'
+summary: 'vault.ferrlabs.com now ships the FerrLabs editorial design: Fraunces display, paper palette, emerald accent.'
 date: 2026-04-29T07:00:00Z
 product: 'ferrvault'
 type: 'new'

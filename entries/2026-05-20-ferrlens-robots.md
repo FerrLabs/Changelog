@@ -11,6 +11,6 @@ prLink: https://github.com/FerrLabs/FerrLens-Cloud/pull/54
 
 1. **Fetch** `https://<domain>/robots.txt` and show the raw body alongside a parsed view of every `User-agent` group (Allow / Disallow / Crawl-delay).
 2. **Test a specific path against a specific User-Agent**: tell us the UA (defaults to `Googlebot`) and the path (defaults to `/`), and we report `Allowed` or `Blocked` plus which `Allow:` / `Disallow:` rule decided it. The matcher implements Google's wildcard semantics (`*` matches any sequence, `$` anchors end-of-path) and the longest-match wins.
-3. **Discover declared sitemaps**: any `Sitemap:` line in the file is collected and rendered as a clickable list — feeds straight into the sitemap validator.
+3. **Discover declared sitemaps**: any `Sitemap:` line in the file is collected and rendered as a clickable list: feeds straight into the sitemap validator.
 
 Useful for confirming that a freshly-deployed `Disallow: /admin` actually blocks `/admin/foo` but not `/administrator`, and that the new `Sitemap:` URL is actually pointing at the right host.
