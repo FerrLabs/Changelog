@@ -4,6 +4,12 @@ All notable changes to `changelog` will be documented here.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [0.31.2] - 2026-08-28
+
+### Bug Fixes
+
+- fix(entries): FerrFlow cargo publish URL uses the crate name (#142)
+
 ## [0.31.1] - 2026-08-28
 
 ### Bug Fixes
