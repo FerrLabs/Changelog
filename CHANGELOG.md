@@ -4,6 +4,12 @@ All notable changes to `changelog` will be documented here.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [0.32.0] - 2026-08-29
+
+### Features
+
+- feat(entries): FerrFlow calver-short-seq and held-back release warning (#146)
+
 ## [0.31.4] - 2026-08-28
 
 ### Bug Fixes
