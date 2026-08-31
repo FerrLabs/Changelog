@@ -4,6 +4,12 @@ All notable changes to `changelog` will be documented here.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [0.32.1] - 2026-08-31
+
+### Bug Fixes
+
+- fix: drop the dead docs link from the telemetry removal entry (#148)
+
 ## [0.32.0] - 2026-08-29
 
 ### Features
