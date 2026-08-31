@@ -12,6 +12,8 @@ Path prefixes decide which package a commit belongs to. That is what the documen
 
 Each package took every commit since its own last tag. A repository with a site and a server would publish the site with the server's refactors listed underneath it, because those commits sat in the window even though nothing in them touched the site.
 
+`ferrflow diff` was fixed to scope its range by path back in August, on the understanding that a release already worked that way. It did not, so from that point until now the preview and the release disagreed with each other, and the preview was the one telling the truth. They agree again.
+
 The visible half is a changelog claiming work that shipped elsewhere. The half worth knowing about is the version. The bump is the strongest change in that list, so a `feat` anywhere in the repository turned every package released alongside it into a minor. A one-line fix to a site could go out as `1.1.0` because a server gained an endpoint the same week.
 
 Releases now carry only the commits that touch the package, matching `path` and any `sharedPaths` it declares. Nothing to configure, and `sharedPaths` behaves as before: a commit under a shared directory belongs to every package that declares it, and to no other.
