@@ -5,7 +5,6 @@ date: 2026-07-17T15:00:00Z
 product: ferrflow
 type: new
 prLink: https://github.com/FerrLabs/FerrFlow/pull/716
-docsLink: https://ferrflow.com/docs/legal/telemetry
 ---
 
 Starting with v5.33, FerrFlow makes no network requests of its own beyond the git and forge operations you explicitly ask for. The anonymous-usage telemetry that previous versions sent on each command has been removed outright: not made opt-in, removed. There is nothing to disable and no data to think about.
