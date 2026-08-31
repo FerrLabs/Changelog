@@ -4,6 +4,12 @@ All notable changes to `changelog` will be documented here.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [0.32.2] - 2026-08-31
+
+### Bug Fixes
+
+- fix(entries): FerrFlow npm publish URL uses the manifest name (#141)
+
 ## [0.32.1] - 2026-08-31
 
 ### Bug Fixes
