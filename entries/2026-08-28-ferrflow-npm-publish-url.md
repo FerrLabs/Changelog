@@ -1,6 +1,6 @@
 ---
 title: 'FerrFlow: the npm link after a publish points at your package again'
-summary: 'FerrFlow built the npmjs.com link from the package name in its own config rather than the one in package.json. In a monorepo those differ by default, and the short names are all taken on npm, so the link led to a stranger&#39;s package instead of yours.'
+summary: 'FerrFlow built the npmjs.com link from the package name in its own config rather than the one in package.json. In a monorepo those differ by default, and the short names are all taken on npm, so the link led to a stranger''s package instead of yours.'
 date: 2026-08-28T14:00:00Z
 product: ferrflow
 type: fix
