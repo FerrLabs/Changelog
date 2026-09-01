@@ -4,6 +4,12 @@ All notable changes to `changelog` will be documented here.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [0.35.0] - 2026-09-01
+
+### Features
+
+- feat: add the doctor lockfile checks entry (#153)
+
 ## [0.34.0] - 2026-09-01
 
 ### Features
