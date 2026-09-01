@@ -4,6 +4,12 @@ All notable changes to `changelog` will be documented here.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [0.33.0] - 2026-09-01
+
+### Features
+
+- feat: add the graph impact entry (#152)
+
 ## [0.32.2] - 2026-08-31
 
 ### Bug Fixes
