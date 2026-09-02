@@ -4,6 +4,12 @@ All notable changes to `changelog` will be documented here.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [0.39.0] - 2026-09-02
+
+### Features
+
+- feat: add the galaxyyml format entry (#159)
+
 ## [0.38.0] - 2026-09-02
 
 ### Features
