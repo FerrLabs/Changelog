@@ -4,6 +4,12 @@ All notable changes to `changelog` will be documented here.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [0.37.0] - 2026-09-02
+
+### Features
+
+- feat: add the cascade strongest bump entry (#155)
+
 ## [0.36.0] - 2026-09-01
 
 ### Features
