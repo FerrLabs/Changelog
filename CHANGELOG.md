@@ -4,6 +4,12 @@ All notable changes to `changelog` will be documented here.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [0.41.0] - 2026-09-03
+
+### Features
+
+- feat(changelog): add entry for the MCP product-scope rename (#164)
+
 ## [0.40.0] - 2026-09-03
 
 ### Features
