@@ -4,6 +4,12 @@ All notable changes to `changelog` will be documented here.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [0.42.0] - 2026-09-04
+
+### Features
+
+- feat(ferrflow): buildMetadata derives part of the version from the code (#166)
+
 ## [0.41.0] - 2026-09-03
 
 ### Features
