@@ -4,6 +4,7 @@ summary: 'A new workspace field naming a command whose output is appended to the
 date: 2026-09-04T20:00:00Z
 product: ferrflow
 type: new
+draft: true
 prLink: https://github.com/FerrLabs/FerrFlow/pull/1022
 docsLink: https://ferrflow.com/docs/configuration/config-file/
 ---
