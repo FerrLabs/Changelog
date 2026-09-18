@@ -4,6 +4,12 @@ All notable changes to `changelog` will be documented here.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [0.43.0] - 2026-09-18
+
+### Features
+
+- feat: one nav column and an app switcher that shows what your org has (#180)
+
 ## [0.42.0] - 2026-09-04
 
 ### Features
