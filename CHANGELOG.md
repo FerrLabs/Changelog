@@ -4,6 +4,12 @@ All notable changes to `changelog` will be documented here.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [0.44.0] - 2026-09-18
+
+### Features
+
+- feat: ferrfleet runner 1.0.1 fixes RUSTSEC-2026-0285 (#181)
+
 ## [0.43.0] - 2026-09-18
 
 ### Features
