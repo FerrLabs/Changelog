@@ -4,7 +4,7 @@ summary: 'When restarting the workloads of a changed FerrVaultSecret failed, the
 date: 2026-09-21T20:00:00Z
 product: ferrvault
 type: fix
-prLink: https://github.com/FerrLabs/FerrVault/pull/272
+prLink: https://github.com/FerrLabs/FerrVault/pull/271
 draft: true
 ---
 
