@@ -4,6 +4,12 @@ All notable changes to `changelog` will be documented here.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [0.46.0] - 2026-09-21
+
+### Features
+
+- feat(ferrvault): operator reconcile timeout, stall alerts and retried rollouts (#190)
+
 ## [0.45.0] - 2026-09-21
 
 ### Features
