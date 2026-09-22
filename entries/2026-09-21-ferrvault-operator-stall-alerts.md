@@ -5,7 +5,6 @@ date: 2026-09-21T20:00:00Z
 product: ferrvault
 type: new
 prLink: https://github.com/FerrLabs/FerrVault/pull/273
-draft: true
 ---
 
 In August one call inside a reconcile stopped returning, and the operator stopped syncing every `FerrVaultSecret` on the cluster for four hours. The pod stayed `Running`, every resource kept its last `Ready=True`, and nothing but the logs showed it. That particular cause was fixed at the time. This release deals with the class of problem.
