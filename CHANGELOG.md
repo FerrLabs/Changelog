@@ -4,6 +4,12 @@ All notable changes to `changelog` will be documented here.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [0.48.0] - 2026-09-22
+
+### Features
+
+- feat(ferrflow): add the package schema entry (#193)
+
 ## [0.47.0] - 2026-09-22
 
 ### Features
