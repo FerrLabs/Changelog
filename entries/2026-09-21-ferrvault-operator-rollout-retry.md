@@ -5,7 +5,6 @@ date: 2026-09-21T20:00:00Z
 product: ferrvault
 type: fix
 prLink: https://github.com/FerrLabs/FerrVault/pull/272
-draft: true
 ---
 
 `spec.rolloutRestart` restarts the listed Deployments, StatefulSets and DaemonSets when the content of a `FerrVaultSecret` changes, so their pods pick up the new values. When that restart failed, because a workload was missing, a patch was refused, or a read never returned, the operator wrote one log line and moved on.
