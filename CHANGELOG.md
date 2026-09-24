@@ -4,6 +4,12 @@ All notable changes to `changelog` will be documented here.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [0.50.0] - 2026-09-24
+
+### Features
+
+- feat(entries): chain one agent into the next (#207)
+
 ## [0.49.0] - 2026-09-22
 
 ### Features
