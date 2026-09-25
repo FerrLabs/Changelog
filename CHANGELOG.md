@@ -4,6 +4,12 @@ All notable changes to `changelog` will be documented here.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [0.52.0] - 2026-09-25
+
+### Features
+
+- feat(entries): retry a failed key rotation (#211)
+
 ## [0.51.0] - 2026-09-25
 
 ### Features
