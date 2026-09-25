@@ -4,6 +4,12 @@ All notable changes to `changelog` will be documented here.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [0.50.1] - 2026-09-25
+
+### Bug Fixes
+
+- fix(ferrlens): SPF check finds the record on domains with many TXT records (#208)
+
 ## [0.50.0] - 2026-09-24
 
 ### Features
