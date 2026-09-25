@@ -4,6 +4,12 @@ All notable changes to `changelog` will be documented here.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [0.51.0] - 2026-09-25
+
+### Features
+
+- feat(entries): session revocation reaches the products (#209)
+
 ## [0.50.1] - 2026-09-25
 
 ### Bug Fixes
