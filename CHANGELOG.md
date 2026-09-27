@@ -4,6 +4,12 @@ All notable changes to `changelog` will be documented here.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [0.53.0] - 2026-09-27
+
+### Features
+
+- feat(entries): choose hardware or software for a managed key (#212)
+
 ## [0.52.0] - 2026-09-25
 
 ### Features
