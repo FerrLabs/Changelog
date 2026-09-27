@@ -4,6 +4,12 @@ All notable changes to `changelog` will be documented here.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [0.54.0] - 2026-09-27
+
+### Features
+
+- feat(entries): a key registry, and vaults that pick their key from it (#213)
+
 ## [0.53.0] - 2026-09-27
 
 ### Features
