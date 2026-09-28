@@ -10,11 +10,14 @@ docsLink: https://ferrflow.com/docs/reference/cli
 
 `ferrflow migrate` converts a semantic-release `tagFormat` into a FerrFlow `tagTemplate`. The conversion wrote the placeholder with doubled braces, `{{version}}`, while FerrFlow templates use single ones. A config migrated from `tagFormat: "v${version}"` therefore rendered tags like `v{1.2.0}`: the first release after migrating found none of the existing tags and started over.
 
-The conversion now writes `{version}`. If you already migrated, check your config for `{{version}}` and replace it with `{version}`:
+The conversion now writes `{version}`. If you already migrated, check the `ferrflow.json` it wrote for `{{version}}` and replace it with `{version}`:
 
-```toml
-[workspace]
-tagTemplate = "v{version}"
+```json
+{
+  "workspace": {
+    "tagTemplate": "v{version}"
+  }
+}
 ```
 
-The migration table in the CLI reference showed the same wrong output and has been corrected.
+The migration table in the CLI reference and in the entry that announced `ferrflow migrate` showed the same wrong output and have been corrected.

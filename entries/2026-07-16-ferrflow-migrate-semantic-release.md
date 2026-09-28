@@ -17,7 +17,7 @@ ferrflow migrate --from semantic-release
 
 It maps what has a FerrFlow equivalent:
 
-- `tagFormat: "v${version}"` → `tagTemplate: "v{{version}}"`
+- `tagFormat: "v${version}"` → `tagTemplate: "v{version}"`
 - `branches` → FerrFlow channels: `main`/`master` become the stable line, a `prerelease` branch becomes a channel
 - `@semantic-release/changelog` → the package's `changelog` path
 - `@semantic-release/exec` → hooks (`prepareCmd` → `preBump`, `publishCmd` → `postPublish`, and the rest)
