@@ -4,6 +4,12 @@ All notable changes to `changelog` will be documented here.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [0.56.0] - 2026-10-02
+
+### Features
+
+- feat(ferrflow): add the shadow-release entry (#219)
+
 ## [0.55.0] - 2026-10-01
 
 ### Features
