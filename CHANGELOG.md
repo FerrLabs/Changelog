@@ -4,6 +4,12 @@ All notable changes to `changelog` will be documented here.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [0.64.0] - 2026-10-03
+
+### Features
+
+- feat(ferrgrowth): alt text on more block images (#231)
+
 ## [0.63.0] - 2026-10-03
 
 ### Features
