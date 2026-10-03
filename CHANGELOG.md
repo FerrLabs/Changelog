@@ -4,6 +4,12 @@ All notable changes to `changelog` will be documented here.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [0.60.0] - 2026-10-03
+
+### Features
+
+- feat(ferrlens): add the security headers A+ fix entry (#226)
+
 ## [0.59.0] - 2026-10-03
 
 ### Features
