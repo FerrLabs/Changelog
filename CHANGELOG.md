@@ -4,6 +4,12 @@ All notable changes to `changelog` will be documented here.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [0.62.0] - 2026-10-03
+
+### Features
+
+- feat(ferrgrowth): security headers on hosted sites (#229)
+
 ## [0.61.0] - 2026-10-03
 
 ### Features
