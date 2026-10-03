@@ -4,6 +4,12 @@ All notable changes to `changelog` will be documented here.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [0.65.0] - 2026-10-03
+
+### Features
+
+- feat(ferrvault): announce operator 5.3.2 (#232)
+
 ## [0.64.0] - 2026-10-03
 
 ### Features
