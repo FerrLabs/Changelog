@@ -4,6 +4,12 @@ All notable changes to `changelog` will be documented here.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [0.57.0] - 2026-10-03
+
+### Features
+
+- feat(ferrvault): add entries for late September and early October (#222)
+
 ## [0.56.0] - 2026-10-02
 
 ### Features
