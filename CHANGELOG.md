@@ -4,6 +4,12 @@ All notable changes to `changelog` will be documented here.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [0.59.0] - 2026-10-03
+
+### Features
+
+- feat(ferrvault): add entries for the connect wizard fix and the Tokens tab (#225)
+
 ## [0.58.0] - 2026-10-03
 
 ### Features
