@@ -4,6 +4,12 @@ All notable changes to `changelog` will be documented here.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [0.58.0] - 2026-10-03
+
+### Features
+
+- feat(ferrgrowth): announce the self-hosted font library (#223)
+
 ## [0.57.0] - 2026-10-03
 
 ### Features
