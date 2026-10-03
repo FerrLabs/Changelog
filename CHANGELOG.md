@@ -4,6 +4,12 @@ All notable changes to `changelog` will be documented here.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [0.61.0] - 2026-10-03
+
+### Features
+
+- feat(ferrflow): add entries for the latest alias, PR lookup, preview and wording fixes (#228)
+
 ## [0.60.0] - 2026-10-03
 
 ### Features
