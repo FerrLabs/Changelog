@@ -4,6 +4,12 @@ All notable changes to `changelog` will be documented here.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [0.67.0] - 2026-10-04
+
+### Features
+
+- feat(ferrgrowth): rate limits on public endpoints (#234)
+
 ## [0.66.0] - 2026-10-04
 
 ### Features
