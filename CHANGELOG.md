@@ -4,6 +4,12 @@ All notable changes to `changelog` will be documented here.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [0.66.0] - 2026-10-04
+
+### Features
+
+- feat(ferrgrowth): font previews and per-weight font files (#233)
+
 ## [0.65.0] - 2026-10-03
 
 ### Features
