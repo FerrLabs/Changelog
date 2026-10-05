@@ -14,4 +14,4 @@ FerrGrowth now follows the role you give people in your FerrLabs organisation. M
 
 Personal API tokens follow the same rule: a token never does more than the person who created it can do. Someone removed from your organisation loses access to its sites right away, instead of when their session expires.
 
-There is nothing to configure. Roles come from your organisation's member list in FerrLabs, so change someone's role there and FerrGrowth follows within seconds.
+There is nothing to configure. Roles come from your organisation's member list in FerrLabs, so change someone's role there and FerrGrowth follows within seconds. If someone on your team relies on the admin actions above, make them an admin there before this reaches your organisation.
