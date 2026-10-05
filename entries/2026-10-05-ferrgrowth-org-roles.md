@@ -1,6 +1,6 @@
 ---
 title: 'FerrGrowth: org roles now decide who can administer a site'
-summary: 'Members of your organisation edit pages, posts, forms and media. Deleting a site, custom domains, server tokens, integrations and release rollbacks are now for admins and owners.'
+summary: 'Members of your organisation edit pages, posts, forms and media. Archiving a site, custom domains, server tokens, integrations and release rollbacks are now for admins and owners.'
 date: 2026-10-05T19:00:00Z
 product: ferrgrowth
 type: security
@@ -14,4 +14,4 @@ FerrGrowth now follows the role you give people in your FerrLabs organisation. M
 
 Personal API tokens follow the same rule: a token never does more than the person who created it can do. Someone removed from your organisation loses access to its sites right away, instead of when their session expires.
 
-There is nothing to configure. Roles come from your organisation's member list in FerrLabs, so change someone's role there and FerrGrowth follows within seconds.
+There is no setting to change in FerrGrowth. Roles come from your organisation's member list in FerrLabs, so change someone's role there and FerrGrowth follows within seconds. If someone on your team relies on the admin actions above, make them an admin there before this reaches your organisation.
