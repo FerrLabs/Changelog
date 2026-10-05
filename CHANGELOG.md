@@ -4,6 +4,12 @@ All notable changes to `changelog` will be documented here.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [0.68.0] - 2026-10-05
+
+### Features
+
+- feat(ferrgrowth): org roles in FerrGrowth (draft) (#235)
+
 ## [0.67.0] - 2026-10-04
 
 ### Features
