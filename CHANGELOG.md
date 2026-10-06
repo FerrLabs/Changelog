@@ -4,6 +4,16 @@ All notable changes to `changelog` will be documented here.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [0.69.0] - 2026-10-06
+
+### Features
+
+- feat(ferrlens): add the tool guides entry (#239)
+
+### Bug Fixes
+
+- fix(ferrgrowth): tell owners to check roles before org roles apply (#236)
+
 ## [0.68.0] - 2026-10-05
 
 ### Features
