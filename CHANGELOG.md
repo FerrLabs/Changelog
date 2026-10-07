@@ -4,6 +4,12 @@ All notable changes to `changelog` will be documented here.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [0.70.0] - 2026-10-07
+
+### Features
+
+- feat(ferrflow): add the JSON strategy names entry (#243)
+
 ## [0.69.0] - 2026-10-06
 
 ### Features
