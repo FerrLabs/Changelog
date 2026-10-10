@@ -4,6 +4,12 @@ All notable changes to `changelog` will be documented here.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [0.72.0] - 2026-10-10
+
+### Features
+
+- feat(ferrfleet): announce self-hosted runner pools (#240)
+
 ## [0.71.0] - 2026-10-10
 
 ### Features
