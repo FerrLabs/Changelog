@@ -1,7 +1,7 @@
 ---
 title: 'Run FerrFleet agents on your own runner pools'
 summary: 'Register a pool of runners you host and point an agent at it. FerrFleet hands its runs to your runners, so the code and the Claude credential stay on your machines, and a Helm chart scales the pool from zero with KEDA.'
-date: 2026-10-06
+date: 2026-10-06T12:00:00Z
 product: ferrfleet
 type: new
 prLink: https://github.com/FerrLabs/FerrFleet-Cloud/pull/876
@@ -23,4 +23,4 @@ helm install ferrfleet-runner oci://ghcr.io/ferrlabs/charts/ferrfleet-runner \
 
 The chart also runs a fixed set of runners without KEDA, and there is a Docker Compose example for hosts without Kubernetes.
 
-Runs are handed out in arrival order. A runner that goes quiet before starting a run gives it back to the pool; one that goes quiet mid-run fails it rather than running it twice, and a run nobody takes ends after 6 hours. For the Claude credential, use an Anthropic API key.
+Runs are handed out in arrival order. A runner that goes quiet before starting a run gives it back to the pool; one that goes quiet mid-run fails it rather than running it twice, and a run nobody takes ends after 6 hours.
