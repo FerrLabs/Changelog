@@ -1,7 +1,7 @@
 ---
 title: 'Run FerrFleet agents on your own runner pools'
 summary: 'Register a pool of runners you host and point an agent at it. FerrFleet hands its runs to your runners, so the code and the Claude credential stay on your machines, and a Helm chart scales the pool from zero with KEDA.'
-date: 2026-10-06T12:00:00Z
+date: 2026-10-10T09:30:00Z
 product: ferrfleet
 type: new
 prLink: https://github.com/FerrLabs/FerrFleet-Cloud/pull/876
